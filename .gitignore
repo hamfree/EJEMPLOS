@@ -90,3 +90,20 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 # End of https://www.gitignore.io/api/java,maven,gradle,grails
+/Cube3D/nbproject/private/
+/AnagramGame/nbproject/private/
+/WebJpa/nbproject/private/
+/JsfJpa/nbproject/private/
+/JsfJpaCrud/nbproject/private/
+/AplicacionGWT/nbproject/private/
+/ScrumToys/nbproject/private/
+/ClientEditor/nbproject/private/
+/EjemplosJPA/EjemplosJPA-ejb/nbproject/private/
+/GroovyJavaDemo/nbproject/private/
+/AdvancedMedia/nbproject/private/
+/JSTLExamples/nbproject/private/
+/TutorialGWT/nbproject/private/
+/GUIFormExamples/nbproject/private/
+/EjemplosJPA/nbproject/private/
+/EjemplosJPA/EjemplosJPA-war/nbproject/private/
+/ResponsiveRabbits/nbproject/private/
