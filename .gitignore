@@ -90,4 +90,12 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 # End of https://www.gitignore.io/api/java,maven,gradle,grails
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 
