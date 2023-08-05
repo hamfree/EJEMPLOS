@@ -28,7 +28,6 @@
   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
   THE POSSIBILITY OF SUCH DAMAGE.
 -->
-
 <persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
   <persistence-unit name="web-jpaPU" transaction-type="JTA">
     <jta-data-source>jdbc/__default</jta-data-source>
@@ -38,6 +37,7 @@
       <!-- use this property if target server uses toplink
       <property name="toplink.ddl-generation" value="drop-and-create-tables"/>
       -->
+      <property name="eclipselink.target-database" value="JavaDB"/>
     </properties>
   </persistence-unit>
 </persistence>

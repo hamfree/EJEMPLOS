@@ -31,6 +31,7 @@
 
 package enterprise.web_jpa_war.entity;
 
+import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -42,7 +43,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "PERSON")
-public class Person {
+public class Person implements Serializable {
 
     @Id
     @Column(name = "ID")
